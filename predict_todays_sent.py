@@ -72,9 +72,9 @@ for word in filtered_row:
 #x=classifier.prob_classify(dictionary)
 
 if classifier.classify(dictionary)==1:
-    title='Price expected to increase today!'
+    title='Bitcoin price expected to increase today!'
 else:
-    title='Price expected to decrease today!'
+    title='Bitcoin price expected to decrease today!'
 
 titleL=[[title]]
 
