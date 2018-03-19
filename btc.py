@@ -10,16 +10,10 @@ import json
 
 
 
-#To access twitter data, must connect with a Twiiter account. 
-#access_token = "252197958-qd0oMpuYd0VyB7Ghb0V3wzksS9heZkT3S2GfdSVs"
-#access_secret = "WK1ZNHalvvPsNVC2ogL5l6ojo8FwtMeXsYIvjWzakb8PA"
-#consumer_key = "vqusFEWFnnqEwqwXdAJnozuay"
-#consumer_secret =   "Dbc4mcepoUGDBuscEtF4YDUYV8MF9wBcUztH5eXI8AOAl6uIVv"
-
-access_token = "252197958-qo3dJNgCFpsKRMZIoqEryntbP6lvT0FfiRKc1wbB"
-access_secret = "tiZZvccKXLyADGTeXFRdRgmpLC7gotnrjxjt3ymOjoh6S"
-consumer_key = "BRmmLz9TbRl40w6LVr6vVzOIr"
-consumer_secret =   "fe1WtWC4kizG5kBRaxHv9rPOn9k6gXMBF9fFae5Slx1IM2zE2r"
+access_token = "YOUR TWITTER ACCESS TOKEN"
+access_secret = "YOUR TWITTER ACCESS SECRET"
+consumer_key = "YOUR TWITTER CONSUMER KEY"
+consumer_secret =   "YOUR TWITTER CONSUMER SECRET"
 
 
 auth=OAuthHandler(consumer_key, consumer_secret)
